@@ -15,70 +15,73 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            overflow: hidden;
         }
         .container {
             background-color: #ffffff;
             border-radius: 12px;
             box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
-            padding: 40px;
+            padding: 20px; /* Reduced padding */
             text-align: center;
-            width: 80%;
-            max-width: 750px;
+            width: 90%; /* Adjusted width */
+            max-width: 700px;
+            height: auto;
         }
         img.logo {
-            max-width: 180px;
-            margin-bottom: 20px;
+            max-width: 150px; /* Reduced logo size */
+            margin-bottom: 10px; /* Reduced margin */
         }
         h1 {
             color: #D58512; /* Orange from logo */
-            margin: 10px 0;
-            font-size: 2.5rem;
+            margin: 5px 0;
+            font-size: 2rem; /* Reduced font size */
             font-weight: 600;
         }
         .name {
-            font-size: 2rem;
+            font-size: 1.5rem; /* Reduced font size */
             font-weight: 600;
             color: #333;
-            margin: 10px 0;
+            margin: 8px 0;
         }
         p {
             color: #555;
-            font-size: 1.2rem;
-            margin: 10px 0;
+            font-size: 1rem; /* Reduced font size */
+            margin: 8px 0;
         }
         .contact {
             font-weight: 600;
             color: #ffffff;
             text-decoration: none;
             display: inline-block;
-            padding: 12px 25px;
+            padding: 10px 20px; /* Adjusted padding */
             border-radius: 10px;
             background-color: #D58512; /* Orange from logo */
             transition: background-color 0.3s ease;
-            margin-top: 15px;
+            margin-top: 10px;
+            font-size: 1rem; /* Reduced font size */
         }
         .contact:hover {
             background-color: #a55e0b;
         }
         .services {
-            margin-top: 30px;
+            margin-top: 20px;
             color: #333;
-            font-size: 1.2rem;
+            font-size: 1rem; /* Reduced font size */
         }
         footer {
-            margin-top: 30px;
-            font-size: 0.9rem;
+            margin-top: 20px;
+            font-size: 0.8rem; /* Reduced font size */
             color: #555;
         }
         @media (max-width: 600px) {
             h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
             .name {
-                font-size: 1.6rem;
+                font-size: 1.4rem;
             }
             p, .services {
-                font-size: 1rem;
+                font-size: 0.9rem;
             }
         }
     </style>
