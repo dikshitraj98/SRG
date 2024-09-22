@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contractor Info</title>
+    <title>SRI RAM GROUP</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #00b09b, #96c93d);
             margin: 0;
-            padding: 20px;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,36 +18,73 @@
         }
         .container {
             background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
             text-align: center;
+            width: 90%;
+            max-width: 700px;
         }
         h1 {
-            color: #333;
-            margin-bottom: 20px;
+            color: #00b09b;
+            margin-bottom: 15px;
+            font-size: 2.8rem;
         }
         p {
             color: #555;
-            font-size: 18px;
-            line-height: 1.5;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
         }
         .contact {
-            font-weight: bold;
-            color: #007BFF;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background-color: #00b09b;
+            transition: background-color 0.3s ease;
+        }
+        .contact:hover {
+            background-color: #00877b;
+        }
+        .services {
+            margin-top: 30px;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
         }
         @media (max-width: 600px) {
-            p {
-                font-size: 16px;
+            h1 {
+                font-size: 2.2rem;
+            }
+            p, .services {
+                font-size: 1rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hello, I'm Vijay Vishnoi</h1>
-        <p>Handling this website as a contractor. Please reach out to me at <span class="contact">9761044529</span>.</p>
-        <p>Website work is under progress.</p>
+        <h1>Vijay Vishnoi</h1>
+        <p>Experienced PWD contractor handling government projects, including road construction and public works tenders.</p>
+        <a href="tel:9761044529" class="contact">Call: 9761044529</a>
+        <p>Email: <a href="mailto:urmiladevi@sriramgroup.info" class="contact">urmiladevi@sriramgroup.info</a></p>
+
+        <div class="services">
+            <h2>Services:</h2>
+            <ul>
+                <li>Road Construction</li>
+                <li>Public Infrastructure Projects</li>
+                <li>Government Tenders</li>
+            </ul>
+        </div>
+
+        <footer>Website under development. Stay tuned for more details on completed projects and services.</footer>
     </div>
 </body>
 </html>
